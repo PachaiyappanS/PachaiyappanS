@@ -1,7 +1,7 @@
 function ValidateForm(event){
     event.preventDefault()
     var name = document.getElementById('name').value;
-    var Age = document.getElementById('Age').value;
+    var age = document.getElementById('Age').value;
     var email = document.getElementById('email').value;
     var pass = document.getElementById('pass').value;
     var letters = /^[0-9]+$/;
